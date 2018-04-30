@@ -17,3 +17,7 @@ Users that are Supporting Members ($5/mo to Untappd) can download their check-in
 ## The Analysis
 
 This is a work in progress and works with the .csv format of user data. To run, save a user data file in /data/userdata.csv.
+
+[beermap.py](beermap.py) 
+
+Creates an interactive html bubble map of breweries using `folium` package (saved as `checkins_map.html`), with bubble size proportional to number of checkins to beers from that brewery.
